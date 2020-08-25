@@ -26,6 +26,6 @@ spec:
   type: ClusterIP # default
   ports:
     - name: event-bus
-      protocol: TCP
+      protocol: TCP 
       port: 4005
       targetPort: 4005
